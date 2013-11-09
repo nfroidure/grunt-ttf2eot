@@ -1,0 +1,39 @@
+{
+  "name": "grunt-ttf2eot",
+  "description": "Create an EOT font from a TTF font",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nfroidure/grunt-ttf2eot",
+  "author": {
+    "name": "Nicolas Froidure",
+    "url": "http://www.insertafter.com/blog.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nfroidure/grunt-ttf2eot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nfroidure/grunt-ttf2eot/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nfroidure/grunt-ttf2eot/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "dependencies": {
+    "ttf2eot": "latest"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin", "font", "ttf", "eot", "converter"
+  ]
+}
