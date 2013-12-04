@@ -33,19 +33,19 @@ grunt.initConfig({
   ttf2eot: {
     your_target: {
       // Target-specific file lists go here.
-    },
-  },
+    }
+  }
 })
 ```
 
 ### Options
 
-#### from
+#### src
 Type: `string`
 
 SVG fonts to convert. Wildcards are supported.
 
-#### to
+#### dest
 Type: `string`
 
 Directory in wich to save the converted font.
@@ -55,9 +55,11 @@ Directory in wich to save the converted font.
 ```js
 grunt.initConfig({
   ttf2eot: {
-    from: 'fonts/*.svg',
-    to: 'fonts/'
-  },
+   default: {
+     src: 'fonts/*.ttf',
+     dest: 'fonts/'
+   }
+  }
 })
 ```
 
